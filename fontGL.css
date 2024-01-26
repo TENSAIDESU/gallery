@@ -1,0 +1,13 @@
+@font-face {
+    font-family:'Isabeau Infant', cursive;
+    src: url(YsabeauInfant-ExtraLight.woff) format(woff);
+}
+.h1{
+    font-size: 36px;
+}
+.btn {
+    font-size: 22px;
+}
+.load{
+    font-size: 22px;
+}

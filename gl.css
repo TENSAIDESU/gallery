@@ -1,0 +1,75 @@
+.ttl{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    margin: 20px;}
+.butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color:#fff;
+    background:rgb(220, 20, 60);
+    width: 250px;
+height: 48px;
+top: 14px;
+left: 762px;
+padding: 5px 10px 5px 10px;
+border-radius: 4px;
+gap: 10px;
+cursor: pointer;
+}
+.btn:hover {
+    color: #F19CBB;
+}
+.load{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.gallery img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.gallery{
+    display: grid;
+      grid-template-columns: repeat(5, 1fr); 
+      gap: 10px;
+      margin-top: 20px;
+}
+@media(max-width: 900px) {
+    .gallery{
+    display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 10px;
+      margin-top: 20p
+}}
+@media(max-width: 670px) {
+    .gallery{
+    display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 10px;
+      margin-top: 20p
+}}
+@media(max-width: 414px) {
+    .gallery{
+    display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      gap: 10px;
+      margin-top: 20p
+}
+.btn{
+    width: auto;
+    height: auto;
+}
+.ttl{
+    display: none;
+}}
